@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>صاد كاش للأعمال البرمجية</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0B2D45;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #0B2D45;
+      margin-bottom: 20px;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      background-color: #e8eef2;
+      padding: 10px;
+      margin: 10px 0;
+      border-right: 5px solid #0B2D45;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #0B2D45;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #0B2D45;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <img src="logo.png" alt="شعار صاد كاش" />
+    </div>
+    <nav>
+      <a href="#about">من نحن</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>من نحن</h2>
+    <p>
+      شركة <strong>صاد كاش للأعمال البرمجية</strong> متخصصة في تطوير المواقع الإلكترونية وأنظمة الكاشير ونقاط البيع. نسعى لتقديم حلول تقنية متطورة تساعد الشركات على إدارة أعمالها بكفاءة وسلاسة.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>خدماتنا</h2>
+    <ul>
+      <li>تصميم وتطوير المواقع الإلكترونية</li>
+      <li>أنظمة الكاشير ونقاط البيع (POS)</li>
+      <li>تطوير تطبيقات ويب مخصصة</li>
+      <li>صيانة ودعم فني مستمر</li>
+      <li>استضافة مواقع وتسجيل نطاقات</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل" required />
+      <input type="email" placeholder="البريد الإلكتروني" required />
+      <textarea rows="5" placeholder="رسالتك" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 صاد كاش للأعمال البرمجية. جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html>
